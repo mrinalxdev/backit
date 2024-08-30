@@ -1,8 +1,6 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
-import { createClient } from '@supabase/supabase-js';
 import { supabase } from './supabase';
-
 
 const app = new Hono();
 app.use(
@@ -17,7 +15,6 @@ app.use(
 	})
 );
 
-
 app.post('/chat', async (c) => {
 	const { message, conversationId } = await c.req.json();
 	let conversationHistory;
@@ -27,7 +24,6 @@ app.post('/chat', async (c) => {
 
 	try {
 		if (conversationId) {
-			// Fetch existing conversation
 			const { data, error } = await supabase.from('conversations').select('conversation_data').eq('id', conversationId).single();
 
 			if (error) {
@@ -37,7 +33,6 @@ app.post('/chat', async (c) => {
 
 			console.log('Retrieved data:', data);
 
-			// Ensure conversationHistory is an array
 			if (Array.isArray(data.conversation_data)) {
 				conversationHistory = data.conversation_data;
 			} else if (typeof data.conversation_data === 'string') {
@@ -55,12 +50,11 @@ app.post('/chat', async (c) => {
 				conversationHistory = [];
 			}
 		} else {
-			// Start a new conversation
 			conversationHistory = [
 				{
 					role: 'system',
 					content:
-						"You're a friendly dropshipping pro who's here to help me out. I'm just starting, so guide me through setting up and running a dropshipping business. Keep your advice simple, like you're explaining things to a friend. Break it down step by step, and don't rush—just give me what I need to know, no fluff. Your answers should be clear and easy to follow, making sure I feel confident and ready to take action. I get all the important stuff without feeling overwhelmed",
+						"You're a friendly dropshipping expert here to guide me step by step through setting up and running my dropshipping business. Keep it simple and clear, like you're talking to a friend. Break down each step without overwhelming me, so I feel confident and ready to take action. Make sure I get the important details in an easy-to-follow way, leaving out any unnecessary fluff.",
 				},
 			];
 		}
@@ -87,11 +81,10 @@ app.post('/chat', async (c) => {
 			conversationHistory = [conversationHistory[0], ...conversationHistory.slice(-10)];
 		}
 
-		// Save or update the conversation in Supabase
 		const { data, error } = await supabase
 			.from('conversations')
 			.upsert({
-				id: conversationId || undefined, // Use undefined for new conversations
+				id: conversationId || undefined,
 				conversation_data: conversationHistory,
 			})
 			.select();
@@ -114,7 +107,6 @@ app.post('/chat', async (c) => {
 	}
 });
 
-// New endpoint to fetch a conversation by ID
 app.get('/conversation/:id', async (c) => {
 	const conversationId = c.req.param('id');
 

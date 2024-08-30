@@ -1,0 +1,367 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone Gimbal",
+    "price": 89.99,
+    "rating": 4.8,
+    "stock": 100
+  },
+  {
+    "id": "2",
+    "name": "Portable Projector",
+    "price": 120.0,
+    "rating": 4.6,
+    "stock": 75
+  },
+
+  {
+    "id": "3",
+    "name": "Wireless Earbuds",
+    "price": 49.99,
+    "rating": 4.7,
+    "stock": 200
+  },
+  {
+    "id": "4",
+    "name": "Smart Fitness Tracker",
+    "price": 35.5,
+    "rating": 4.5,
+    "stock": 150
+  },
+  {
+    "id": "5",
+    "name": "Bluetooth Speaker",
+    "price": 29.99,
+    "rating": 4.6,
+    "stock": 250
+  },
+  {
+    "id": "6",
+    "name": "Eco-Friendly Water Bottle",
+    "price": 18.75,
+    "rating": 4.9,
+    "stock": 300
+  },
+  {
+    "id": "7",
+    "name": "Reusable Silicone Food Bags",
+    "price": 15.99,
+    "rating": 4.8,
+    "stock": 180
+  },
+  {
+    "id": "8",
+    "name": "USB-C Hub",
+    "price": 45.0,
+    "rating": 4.5,
+    "stock": 120
+  },
+  {
+    "id": "9",
+    "name": "LED Desk Lamp with Wireless Charger",
+    "price": 39.99,
+    "rating": 4.4,
+    "stock": 90
+  },
+  {
+    "id": "10",
+    "name": "Mini Air Purifier",
+    "price": 65.0,
+    "rating": 4.3,
+    "stock": 80
+  },
+  {
+    "id": "11",
+    "name": "Portable Blender",
+    "price": 35.99,
+    "rating": 4.6,
+    "stock": 150
+  },
+  {
+    "id": "12",
+    "name": "Solar Power Bank",
+    "price": 55.0,
+    "rating": 4.7,
+    "stock": 130
+  },
+  {
+    "id": "13",
+    "name": "Smart Light Bulbs",
+    "price": 25.0,
+    "rating": 4.5,
+    "stock": 200
+  },
+  {
+    "id": "14",
+    "name": "Electric Wine Opener",
+    "price": 24.99,
+    "rating": 4.4,
+    "stock": 160
+  },
+  {
+    "id": "15",
+    "name": "Phone Sanitizer",
+    "price": 49.99,
+    "rating": 4.8,
+    "stock": 100
+  },
+  {
+    "id": "16",
+    "name": "Smart Doorbell Camera",
+    "price": 79.99,
+    "rating": 4.6,
+    "stock": 70
+  },
+  {
+    "id": "17",
+    "name": "Wireless Charging Pad",
+    "price": 29.99,
+    "rating": 4.7,
+    "stock": 250
+  },
+  {
+    "id": "18",
+    "name": "Laptop Cooling Pad",
+    "price": 19.99,
+    "rating": 4.4,
+    "stock": 190
+  },
+  {
+    "id": "19",
+    "name": "Magnetic Phone Holder",
+    "price": 12.99,
+    "rating": 4.3,
+    "stock": 300
+  },
+  {
+    "id": "20",
+    "name": "Smart Plug",
+    "price": 17.99,
+    "rating": 4.5,
+    "stock": 220
+  },
+  {
+    "id": "21",
+    "name": "Collapsible Water Bottle",
+    "price": 16.99,
+    "rating": 4.7,
+    "stock": 140
+  },
+  {
+    "id": "22",
+    "name": "Electric Milk Frother",
+    "price": 24.99,
+    "rating": 4.6,
+    "stock": 160
+  },
+  {
+    "id": "23",
+    "name": "Portable Power Station",
+    "price": 99.99,
+    "rating": 4.8,
+    "stock": 70
+  },
+  {
+    "id": "24",
+    "name": "Anti-Theft Backpack",
+    "price": 45.0,
+    "rating": 4.5,
+    "stock": 130
+  },
+  {
+    "id": "25",
+    "name": "Electric Heated Blanket",
+    "price": 59.99,
+    "rating": 4.7,
+    "stock": 100
+  },
+  {
+    "id": "26",
+    "name": "Travel Pillow",
+    "price": 20.0,
+    "rating": 4.4,
+    "stock": 200
+  },
+  {
+    "id": "27",
+    "name": "Foldable Bluetooth Keyboard",
+    "price": 34.99,
+    "rating": 4.6,
+    "stock": 150
+  },
+  {
+    "id": "28",
+    "name": "UV Sterilizer Box",
+    "price": 49.99,
+    "rating": 4.5,
+    "stock": 120
+  },
+  {
+    "id": "29",
+    "name": "Digital Luggage Scale",
+    "price": 15.99,
+    "rating": 4.4,
+    "stock": 220
+  },
+  {
+    "id": "30",
+    "name": "Motion Sensor Light",
+    "price": 22.99,
+    "rating": 4.7,
+    "stock": 170
+  },
+  {
+    "id": "31",
+    "name": "Electric Toothbrush",
+    "price": 39.99,
+    "rating": 4.8,
+    "stock": 100
+  },
+  {
+    "id": "32",
+    "name": "Smart Thermostat",
+    "price": 149.99,
+    "rating": 4.7,
+    "stock": 50
+  },
+  {
+    "id": "33",
+    "name": "Portable Air Compressor",
+    "price": 69.99,
+    "rating": 4.6,
+    "stock": 90
+  },
+  {
+    "id": "34",
+    "name": "Smart Water Bottle",
+    "price": 25.0,
+    "rating": 4.5,
+    "stock": 180
+  },
+  {
+    "id": "35",
+    "name": "Solar String Lights",
+    "price": 30.0,
+    "rating": 4.7,
+    "stock": 160
+  },
+  {
+    "id": "36",
+    "name": "Electric Bug Zapper",
+    "price": 27.99,
+    "rating": 4.4,
+    "stock": 190
+  },
+  {
+    "id": "37",
+    "name": "Portable Camp Stove",
+    "price": 59.99,
+    "rating": 4.5,
+    "stock": 130
+  },
+  {
+    "id": "38",
+    "name": "Waterproof Phone Pouch",
+    "price": 14.99,
+    "rating": 4.6,
+    "stock": 200
+  },
+  {
+    "id": "39",
+    "name": "Electric Egg Cooker",
+    "price": 22.99,
+    "rating": 4.4,
+    "stock": 170
+  },
+  {
+    "id": "40",
+    "name": "Solar Garden Lights",
+    "price": 29.99,
+    "rating": 4.5,
+    "stock": 150
+  },
+  {
+    "id": "41",
+    "name": "Air Fryer",
+    "price": 89.99,
+    "rating": 4.8,
+    "stock": 80
+  },
+  {
+    "id": "42",
+    "name": "Bluetooth Shower Speaker",
+    "price": 19.99,
+    "rating": 4.6,
+    "stock": 250
+  },
+  {
+    "id": "43",
+    "name": "Smart Bike Lock",
+    "price": 59.99,
+    "rating": 4.7,
+    "stock": 90
+  },
+  {
+    "id": "44",
+    "name": "Portable Massage Gun",
+    "price": 89.99,
+    "rating": 4.7,
+    "stock": 100
+  },
+  {
+    "id": "45",
+    "name": "LED Makeup Mirror",
+    "price": 29.99,
+    "rating": 4.5,
+    "stock": 150
+  },
+  {
+    "id": "46",
+    "name": "Smart Mirror",
+    "price": 199.99,
+    "rating": 4.6,
+    "stock": 60
+  },
+  {
+    "id": "47",
+    "name": "Portable Coffee Maker",
+    "price": 59.99,
+    "rating": 4.7,
+    "stock": 120
+  },
+  {
+    "id": "48",
+    "name": "Smart Plant Sensor",
+    "price": 24.99,
+    "rating": 4.4,
+    "stock": 180
+  },
+  {
+    "id": "49",
+    "name": "Electric Grill",
+    "price": 79.99,
+    "rating": 4.6,
+    "stock": 70
+  },
+  {
+    "id": "50",
+    "name": "Noise Cancelling Headphones",
+    "price": 129.99,
+    "rating": 4.8,
+    "stock": 60
+  },
+  {
+    "id": "51",
+    "name": "Waterproof Action Camera",
+    "price": 99.99,
+    "rating": 4.7,
+    "stock": 80
+  },
+  {
+    "id": "52",
+    "name": "Compact Treadmill",
+    "price": 299.99,
+    "rating": 4.8,
+    "stock": 40
+  }
+]
