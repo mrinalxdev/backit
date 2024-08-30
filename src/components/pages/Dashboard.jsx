@@ -1,6 +1,8 @@
 import { useUser } from "@clerk/clerk-react";
 import { Calendar } from "lucide-react";
 import DashComp from "../dashboard/DashComp";
+import SupplierSpotlight from "../dashboard/SupplierSpotlight";
+import DailyLearningVideo from "../dashboard/DailyLearnings";
 
 const Dashboard = () => {
   const { user } = useUser();
@@ -8,7 +10,7 @@ const Dashboard = () => {
   const options = { year: "numeric", month: "long", day: "numeric" };
   const formattedDate = today.toLocaleDateString(undefined, options);
   return (
-    <div className="mt-8">
+    <div className="mt-8 mb-8">
       {/* Banner  */}
       <div className="w-[90%] mx-auto p-2 flex justify-between items-center">
         <div>
@@ -29,17 +31,10 @@ const Dashboard = () => {
       </div>
 
       <div className="w-[90%] mx-auto mt-[2rem]">
-        <div className="grid grid-cols-5 grid-rows-10 gap-2 max-sm:block">
-          <div className="col-span-3 row-span-4 shadow-2xl rounded-md">
-            <DashComp />
-          </div>
-          <div className="col-span-3 row-span-4 col-start-1 row-start-5 bg-gray-500">
-            2
-          </div>
-          <div className="col-span-2 row-span-8 col-start-4 row-start-1 bg-gray-500">
-            3
-          </div>
-          <div className="col-span-5 row-span-2 row-start-9 bg-gray-500">4</div>
+        <div className="grid grid-cols-8 grid-rows-8 gap-2 max-sm:block">
+          <div className="col-span-5 row-span-4"><DashComp /></div>
+          <div className="col-span-5 row-span-4 col-start-1 row-start-5"><DailyLearningVideo /></div>
+          <div className="col-span-3 row-span-8 col-start-6 row-start-1"><SupplierSpotlight /></div>
         </div>
       </div>
     </div>
