@@ -1,18 +1,9 @@
-import { Link } from "react-router-dom";
-import { Button } from "../ui/button";
-import { useAuth } from "@clerk/clerk-react";
+import Hero from "../Landing/Hero";
 
 const LandingPage = () => {
-  const { isSignedIn } = useAuth();
   return (
     <div>
-      <Button>
-        {isSignedIn ? (
-          <Link to="/dashboard">Go to Dashboard</Link>
-        ) : (
-          <Link to="/sign-in">Get Started</Link>
-        )}
-      </Button>
+      <Hero />
     </div>
   );
 };
