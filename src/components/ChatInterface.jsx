@@ -21,7 +21,7 @@ const ChatInterface = () => {
         setConversationId(storedConversationId);
         setIsLoading(true);
         try {
-          const response = await fetch(`http://localhost:8787/conversation/${storedConversationId}`);
+          const response = await fetch(`https://server.inventorspott.workers.dev/${storedConversationId}`);
           const data = await response.json();
           if (data.conversation) {
             setMessages(data.conversation);
@@ -49,7 +49,7 @@ const ChatInterface = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8787/chat", {
+      const response = await fetch("https://server.inventorspott.workers.dev/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input, conversationId }),
