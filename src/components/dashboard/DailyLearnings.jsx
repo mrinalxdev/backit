@@ -4,21 +4,27 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const videoData = [
   {
     id: 1,
-    title: "Understanding React Hooks",
-    description: "Learn about React Hooks and how they can simplify your React components.",
-    videoId: "dpw9EHDh2bM"
+    title: "How To Build A FREE Dropshipping Store With Shopify 2024",
+    description: "Step-by-step guidance on building a profitable Shopify store from A to Z",
+    videoId: "YuCPGIBVwxI"
   },
   {
     id: 2,
-    title: "Advanced CSS Techniques",
-    description: "Discover advanced CSS techniques to create stunning web designs.",
-    videoId: "w1nhwUGsG6M"
+    title: "Beginners Guide To Dropshipping in 2024",
+    description: "Common beginner mistakes include neglecting market research and underestimating customer service needs",
+    videoId: "pP8kYE-5v2s"
   },
   {
     id: 3,
-    title: "Introduction to Machine Learning",
-    description: "Get started with machine learning concepts and applications.",
-    videoId: "ukzFI9rgwfU"
+    title: "How I Made 40k a Month Dropshipping",
+    description: "Automation tools can streamline order fulfillment and enhance efficiency in managing the business",
+    videoId: "UVDb2NJC3yQ"
+  },
+  {
+    id: 4,
+    title: "Dropshipping Is Dead",
+    description: "Dropshipping allows flexibility, enabling entrepreneurs to work from anywhere without holding inventory",
+    videoId: "353xux4JQqQ"
   }
 ];
 

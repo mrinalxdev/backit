@@ -71,7 +71,7 @@ const ChatInterface = () => {
   };
 
   return (
-    <div className="flex flex-col h-[895px] max-sm:h-[800px] w-[80%] max-sm:w-full mx-auto bg-[url('/main-bg.png')] rounded-xl mt-6">
+    <div className="flex flex-col h-[895px] max-sm:h-[800px] w-[90%] max-sm:w-full mx-auto bg-[url('/main-bg.png')] rounded-xl mt-6">
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message, index) => (
           <div

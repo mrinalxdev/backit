@@ -65,7 +65,7 @@ const ClerkWithRoutes = () => {
         />
         <Route element={<ProtectedLayout />}>
           <Route path="/protected" element={<ProtectedPage />} />
-          <Route path="/chatbot" element={<div className="bg-[url('/main-bg.png')]"><ChatInterface /></div>} />
+          <Route path="/chatbot" element={<div><ChatInterface /></div>} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/explore" element={<Explore />} />
         </Route>
