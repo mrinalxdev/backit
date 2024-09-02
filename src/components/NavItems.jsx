@@ -32,18 +32,21 @@ const NavItems = () => {
                         BackIt/Chatbot
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        Beautifully designed components that you can copy and
-                        paste into your apps. Accessible. Customizable. Open
-                        Source.
+                        An AI-powered dropshipping assistant that offers
+                        personalized guidance, real-time product comparisons,
+                        top supplier insights, daily learning videos, and
+                        seamless integration to help you start and scale your
+                        business..
                       </p>
                     </a>
                   </NavigationMenuLink>
                 </li>
                 <ListItem href="/chatbot" title="Chat">
-                  Re-usable components built using Radix UI and Tailwind CSS.
+                  Dropshipping chatbot providing personalized guidance,
+                  real-time insights, and seamless integration.
                 </ListItem>
                 <ListItem href="/" title="Support Project">
-                  How to install dependencies and structure your app.
+                  We are looking for your support to this project !!
                 </ListItem>
               </ul>
             </NavigationMenuContent>
