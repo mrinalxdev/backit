@@ -32,11 +32,8 @@ const NavItems = () => {
                         BackIt/Chatbot
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        An AI-powered dropshipping assistant that offers
-                        personalized guidance, real-time product comparisons,
-                        top supplier insights, daily learning videos, and
-                        seamless integration to help you start and scale your
-                        business..
+                        Personalized AI dropshipping coach, real-time insights,
+                        easy integration, daily learning.
                       </p>
                     </a>
                   </NavigationMenuLink>
