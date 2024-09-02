@@ -29,23 +29,23 @@ const FeatureCard = ({ icon: Icon, title, description }) => {
 };
 
 const FeatureItem = ({ icon, title, description }) => (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="flex flex-col gap-4 lg:flex-row"
-    >
-      <div>
-        <span className="flex items-center justify-center bg-gray-100 rounded-full size-12">
-          {icon}
-        </span>
-      </div>
-      <div>
-        <h3 className="font-medium text-gray-900">{title}</h3>
-        <p className="mt-2 text-sm font-medium text-gray-500">{description}</p>
-      </div>
-    </motion.div>
-  )
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+    className="flex flex-col gap-4 lg:flex-row"
+  >
+    <div>
+      <span className="flex items-center justify-center bg-gray-100 rounded-full size-12">
+        {icon}
+      </span>
+    </div>
+    <div>
+      <h3 className="font-medium text-gray-900">{title}</h3>
+      <p className="mt-2 text-sm font-medium text-gray-500">{description}</p>
+    </div>
+  </motion.div>
+);
 
 export default function Features() {
   const [ref, inView] = useInView({
@@ -64,7 +64,7 @@ export default function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4">
-            Transform your visitors into users with an engaging headline
+            Everything You Need to Succeed in Dropshipping
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             The fastest method for working together on staging and temporary
@@ -75,18 +75,18 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FeatureCard
             icon={Atom}
-            title="Innovative Design"
-            description="Our cutting-edge design offers a fresh, modern look that transforms your project into a standout experience."
+            title="AI Dropshipping Expert"
+            description="Get instant advice and tailored strategies from our AI-powered chatbot, designed to guide you through every step of your dropshipping journey."
           />
           <FeatureCard
             icon={Zap}
-            title="Powerful Functionality"
-            description="Equipped with advanced features and tools, our solution effortlessly manages complex tasks and workflows."
+            title="Real-Time Product Insights"
+            description="Explore the best products with our dashboard that compares top-performing items and highlights the best suppliers, ensuring you make informed decisions."
           />
           <FeatureCard
             icon={Puzzle}
-            title="Easy Integration"
-            description="Integrating with existing systems is smooth and hassle-free, thanks to our incredible flexible approach."
+            title="Daily Learning Hub"
+            description="Stay ahead with daily video lessons curated from YouTube. Learn something new every day to sharpen your dropshipping skills and grow your business."
           />
         </div>
       </div>
@@ -107,12 +107,13 @@ export default function Features() {
                 className="md:order-first"
               >
                 <h1 className="mt-8 text-2xl font-semibold tracking-tighter text-gray-900">
-                  Seamless feedback, integrated instantly
+                  Personalized Dropshipping Guidance
                 </h1>
                 <p className="mt-4 text-base font-medium text-gray-500 text-balance">
-                  Streamline your feedback process with our easy-to-integrate
-                  solution. Capture insights effortlessly, reduce implementation
-                  time, and focus on what matters
+                  Our AI chatbot is more than just an assistant—it's your
+                  personal dropshipping coach. Designed to understand your
+                  unique needs, it provides bite-sized, actionable steps to help
+                  you start small and scale with confidence.
                 </p>
                 <div className="flex flex-col gap-12 mt-12">
                   <FeatureItem
@@ -134,7 +135,7 @@ export default function Features() {
                       </svg>
                     }
                     title="Instant Updates"
-                    description="Get real-time feedback without refreshing or delays, keeping you in the loop."
+                    description="Stay ahead with real-time alerts and updates. Our chatbot keeps you informed on the latest trends, product availability, and market shifts, so you're always ready to make the best decisions."
                   />
                   <FeatureItem
                     icon={
@@ -155,7 +156,7 @@ export default function Features() {
                       </svg>
                     }
                     title="Effortless Integration"
-                    description="Plug it in and go—no complex setup, just instant functionality"
+                    description="Seamlessly connect the chatbot with your existing tools and platforms. Whether you're using Shopify, WooCommerce, or another system, our chatbot integrates effortlessly, helping you manage your business with ease."
                   />
                 </div>
               </motion.div>

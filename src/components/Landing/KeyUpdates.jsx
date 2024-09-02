@@ -1,5 +1,5 @@
-import React from "react"
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
 const Milestone = ({ date, title, description }) => (
   <motion.div
@@ -12,7 +12,7 @@ const Milestone = ({ date, title, description }) => (
     <h3 className="text-2xl font-bold mb-2">{title}</h3>
     <p className="text-gray-600">{description}</p>
   </motion.div>
-)
+);
 
 export default function KeyUpdates() {
   return (
@@ -27,13 +27,12 @@ export default function KeyUpdates() {
           <h2 className="text-blue-500 font-medium mb-2">MILESTONES</h2>
           <h3 className="text-4xl font-bold mb-4">Key updates & releases</h3>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore the evolution of our product, from the initial launch to the latest enhancements.
+            Explore the evolution of our product, from the initial launch to the
+            latest enhancements.
           </p>
         </motion.div>
 
         <div className="relative">
-          
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
             <Milestone
               date="01.08.2024"
@@ -54,5 +53,5 @@ export default function KeyUpdates() {
         </div>
       </div>
     </section>
-  )
+  );
 }
